@@ -1,0 +1,68 @@
+.clock-containers {
+  display: flex;
+}
+
+.clock-container {
+  position: relative;
+  margin: 20px;
+  width: 200px;
+}
+
+.clock-name {
+  text-align: center;
+}
+
+.clock-delete {
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.clock {
+  position: 'relative';
+  width: 200px;
+  height: 200px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-right: 15px;
+}
+
+label {
+  padding-left: 15px;
+}
+
+input {
+  height: 2em;
+}
+
+.submit-container {
+  display: flex;
+  align-items: end;
+  width: 20%;
+}
+
+.submit {
+  height: 2em;
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 0;
+  width: 100%;
+  cursor: pointer;
+}
